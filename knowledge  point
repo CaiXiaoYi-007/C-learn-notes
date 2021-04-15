@@ -5,4 +5,5 @@
 ##当__attribute__ 用于修饰函数时，它就相当于一个函数说明符，跟inline，Noreturn 属同一类。
 ##当__attribute_ 用于修饰一个结构体，联合体或者枚举类型，该限定符只能放在类型标识符之前。
 ##示例：extern void exit(int)   __attribute__((noreturn));
-
+#2.编写makefile文件中临时将tab不转换为空格
+##先按CTRL+X组合键，然后再按tab键
