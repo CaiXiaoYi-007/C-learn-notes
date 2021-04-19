@@ -1,6 +1,5 @@
 Notes on knowledge points
 =======
-
 1._attribute_机制
 ----
 *以设置函数属性（Function Attribute）、变量属性（Variable Attribute）和类型属性（Type Attribute）
@@ -11,14 +10,14 @@ Notes on knowledge points
 *示例：extern void exit(int)   __attribute__((noreturn));
 2.编写makefile文件中临时将tab不转换为空格
 ----
-*先按CTRL+V组合键，然后再按tab键
+先按CTRL+V组合键，然后再按tab键
 3.C语言中的NULL是怎么定义的
 ----
-*其宏定义为#define NULL ((void*)0)
+其宏定义为#define NULL ((void*)0)
 4.vim中的代码补全功能
 ----
-*在插入模式下按组合键ctrl-p和组合键ctrl-n.
+在插入模式下按组合键ctrl-p和组合键ctrl-n.
 5.函数指针和指针函数的区别
 ----
-*函数指针指向函数，函数指针和它指向的函数的参数个数和类型应该是一致的，其指针类型和函数的返回类型##一致原型为：type(*函数名)(形参列表); 其调用形式为 (*函数名)(函数参数);
-*指针函数是指函数的返回类型是指针类型，原型为：type *函数名(形参列表);
+函数指针指向函数，函数指针和它指向的函数的参数个数和类型应该是一致的，其指针类型和函数的返回类型##一致原型为：type(*函数名)(形参列表); 其调用形式为 (*函数名)(函数参数);
+指针函数是指函数的返回类型是指针类型，原型为：type *函数名(形参列表);
